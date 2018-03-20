@@ -1,0 +1,2 @@
+# JSExamples
+Practicing JS
