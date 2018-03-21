@@ -1,4 +1,4 @@
-//Counting 
+//Counting Letters
 function myFun() {
     var str = prompt("Enter a word");
     
