@@ -1,15 +1,38 @@
-//Counting Letters
-function myFun() {
-    var str = prompt("Enter a word");
+////Counting Letters
+//function myFun() {
+//    var str = prompt("Enter a word");
+//    
+////var length = str.replace(/\s/g, "").length;
+////    alert("Your word has "+length+" letters");
+//    if(str==str+" " ){
+//        alert("Just one word please!")
+//    }
+//    else{
+//        var n = str.length;
+//        alert(n);
+//    }
+//}
+//myFun();
+function findPrimeFactors (num) {
+
+    var primeFactors = [];
+    while (num % 2 === 0) {
+        primeFactors.push(2);
+        num = num / 2;
+    }
     
-//var length = str.replace(/\s/g, "").length;
-//    alert("Your word has "+length+" letters");
-    if(str==str+" " ){
-        alert("Just one word please!")
+    var sqrtNum = Math.sqrt(num);
+    for (var i = 3; i <= sqrtNum; i++) {
+        while (num % i === 0) {
+            primeFactors.push(i);
+            num = num / i;
+        }
     }
-    else{
-        var n = str.length;
-        alert(n);
+
+    if (num > 2) {
+        primeFactors.push(num);
     }
+    return primeFactors;
+    
 }
-myFun();
+findPrimeFactors(10);
