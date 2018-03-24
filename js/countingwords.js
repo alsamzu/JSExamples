@@ -15,7 +15,7 @@
 //myFun();
 function findPrimeFactors (num) {
 
-    var primeFactors = [];
+    var primeFactors =[];
     while (num % 2 === 0) {
         primeFactors.push(2);
         num = num / 2;
@@ -33,7 +33,9 @@ function findPrimeFactors (num) {
         primeFactors.push(num);
     }
     return primeFactors;
+    alert(primeFactors);
     
 }
-document.write(findPrimeFactors(10));
-alert(findPrimeFactors(123));
+//document.write(findPrimeFactors(10));
+//alert(findPrimeFactors(123));
+findPrimeFactors();
