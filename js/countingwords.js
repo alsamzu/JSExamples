@@ -33,9 +33,8 @@ function findPrimeFactors (num) {
         primeFactors.push(num);
     }
     return primeFactors;
-    alert(primeFactors);
+    
     
 }
-//document.write(findPrimeFactors(10));
-//alert(findPrimeFactors(123));
-findPrimeFactors();
+document.write(findPrimeFactors(10));
+alert(findPrimeFactors(123));
