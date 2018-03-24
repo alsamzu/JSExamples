@@ -35,4 +35,5 @@ function findPrimeFactors (num) {
     return primeFactors;
     
 }
-findPrimeFactors(10);
+document.write(findPrimeFactors(10));
+alert(findPrimeFactors(123));
