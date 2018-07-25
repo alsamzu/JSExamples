@@ -13,13 +13,13 @@
 ////    }
 //}
 //myFun();
-function second(){
+function second() {
     var str = prompt("Enter a word");
-    
+
     var s = str.length;
-   // alert(s);
-    if(s==2){
-        alert("second character is"+s);
+    // alert(s);
+    if (s == 2) {
+        alert("second character is" + s);
     }
 }
 second();
