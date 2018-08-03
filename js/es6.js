@@ -8,8 +8,14 @@ function es (){
         }
     }
 }
-    es();
+   // es();
 
 }
 
+var name = "crystal";
+var belt = "black";
 
+var ninja = {
+    name,belt
+}
+console.log(ninja.name);
