@@ -40,6 +40,7 @@ var ninja = (nam) => {
 ninja("Alsam");
 
 //Sets
+//Sets eliminate duplicates
  var flames = new Set();
 flames.add(`Warda`).add(`Zulfa`);
 console.log(flames);
