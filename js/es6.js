@@ -45,4 +45,11 @@ ninja("Alsam");
 flames.add(`Warda`).add(`Zulfa`);
 console.log(flames);
 
+//Arrow Function
 
+let z = (a,b) =>
+     a+b;
+
+
+
+ console.log(z(4,6));
