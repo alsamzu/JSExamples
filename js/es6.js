@@ -1,14 +1,14 @@
-window.onload = function(){
-   var items = document.getElementsByTagName("ul");
+window.onload = function () {
+    var items = document.getElementsByTagName("ul");
 
-function es (){
-    for(let i = 0; i<items.length; i++){
-        items[i].onclick = function(){
-            console.log(i);
+    function es() {
+        for (let i = 0; i < items.length; i++) {
+            items[i].onclick = function () {
+                console.log(i);
+            }
         }
     }
-}
-   // es();
+    // es();
 
 }
 
@@ -16,7 +16,8 @@ var name = "crystal";
 var belt = "black";
 
 var ninja = {
-    name,belt
+    name,
+    belt
 }
 //console.log(ninja.name);
 
@@ -31,25 +32,25 @@ console.log(str.startsWith("A"));
 //Endswith method
 console.log(str.endsWith("A"));
 //includes method
-console.log(str.includes("A",4));
+console.log(str.includes("A", 4));
 
 //Arrow functions
 var ninja = (nam) => {
-        console.log(`${nam} says hello`);
+    console.log(`${nam} says hello`);
 }
 ninja("Alsam");
 
 //Sets
 //Sets eliminate duplicates
- var flames = new Set();
+var flames = new Set();
 flames.add(`Warda`).add(`Zulfa`);
 console.log(flames);
 
 //Arrow Function
 
-let z = (a,b) =>
-     a+b;
+let z = (a, b) =>
+    a + b;
 
 
 
- console.log(z(4,6));
+console.log(z(4, 6));
