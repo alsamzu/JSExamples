@@ -53,4 +53,14 @@ let z = (a, b) =>
 
 
 
-console.log(z(4, 6));
+document.write(z(41, 6));
+
+//For of loop
+
+//for..of is very similar to for..in with slight modification.
+
+//for..of iterates through list of elements (i.e) like Array and returns the elements (not their index) one by one.
+let string = "Javascript";
+for (let char of string) {
+ console.log(char);
+}
