@@ -62,5 +62,5 @@ document.write(z(41, 6));
 //for..of iterates through list of elements (i.e) like Array and returns the elements (not their index) one by one.
 let string = "Javascript";
 for (let char of string) {
- console.log(char);
+    console.log(char);
 }
