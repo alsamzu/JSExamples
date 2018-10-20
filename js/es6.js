@@ -28,7 +28,7 @@ var str = "Alsam is Amazing! "
 console.log(str.repeat(5));
 
 //startwith method
-console.log(str.startsWith("A"));
+console.log(str.startsWith("S"));
 //Endswith method
 console.log(str.endsWith("A"));
 //includes method
