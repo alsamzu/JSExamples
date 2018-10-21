@@ -23,7 +23,7 @@ var ninja = {
 
 //String Methods
 
-var str = "Alsam is Amazing! "
+var str = "Alsam is very Amazing! "
 //repeat method
 console.log(str.repeat(5));
 
