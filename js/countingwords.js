@@ -19,7 +19,7 @@ function second() {
     var s = str.length;
     // alert(s);
     if (s == 2) {
-        alert("second character is" + s);
+        alert("The second character is" + s);
     }
 }
 second();
