@@ -19,4 +19,4 @@
 //    }
 //    return primeFactors;
 //}
-//findPrimeFactors(100);
+//findPrimeFactors(1000);
