@@ -14,7 +14,7 @@
 //}
 //myFun();
 function second() {
-    var str = prompt("Enter one word");
+    var str = prompt("Enter a word");
 
     var s = str.length;
     // alert(s);
